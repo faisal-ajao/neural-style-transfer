@@ -1,11 +1,11 @@
-# 🎨 Neural Style Transfer with TensorFlow & Keras
+# Neural Style Transfer with TensorFlow & Keras
 
 This project implements **Neural Style Transfer (NST)** using a pretrained **VGG19** model in TensorFlow/Keras.  
 NST blends the **content** of one image with the **style** of another, producing visually stunning artworks.  
 
 ---
 
-## 🚀 Features
+## Features
 - Generate artistic images by combining content and style.  
 - Configurable hyperparameters (content, style, and variation weights).  
 - Pre-included examples (`cat`, `elephant`, `human`, `mountain`).  
@@ -13,7 +13,7 @@ NST blends the **content** of one image with the **style** of another, producing
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run the main script to generate a stylized image:
 
@@ -47,7 +47,7 @@ jupyter notebook main.ipynb
 
 ---
 
-## 📊 Output Example (Image)  
+## Output Example (Image)  
 
 Example with **elephant.jpg** (content) + **forest.jpg** (style):  
 
@@ -57,7 +57,7 @@ Example with **elephant.jpg** (content) + **forest.jpg** (style):
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 neural-style-transfer/
 ├── README.md
@@ -85,12 +85,12 @@ neural-style-transfer/
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 - Python 3.10  
 - TensorFlow / Keras  
 - NumPy  
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
